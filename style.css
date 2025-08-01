@@ -128,6 +128,101 @@ section{
    object-fit: cover;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 999;
+}
+
+.floating-buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.floating-buttons .call-btn {
+  background-color: #25d366; /* Green */
+}
+
+.floating-buttons .whatsapp-btn {
+  background-color: #075e54; /* Dark Green */
+}
+
+.floating-buttons a:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .home .box .flex{
    display: flex;
    align-items: center;
